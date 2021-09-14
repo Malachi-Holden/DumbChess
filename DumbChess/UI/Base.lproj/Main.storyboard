@@ -272,7 +272,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="704" height="964"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvH-E0-lH8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvH-E0-lH8" customClass="MDCButton">
                                 <rect key="frame" x="265" y="457.5" width="174" height="49"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <state key="normal" title="Play as Black"/>
@@ -280,7 +280,7 @@
                                     <action selector="playAsBlack:" destination="p0o-lo-iO3" eventType="touchUpInside" id="DSU-sH-jTh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLF-53-pSc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLF-53-pSc" customClass="MDCButton">
                                 <rect key="frame" x="263" y="536.5" width="178" height="49"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <state key="normal" title="Random Side"/>
@@ -288,7 +288,7 @@
                                     <action selector="playRandomSide:" destination="p0o-lo-iO3" eventType="touchUpInside" id="s0k-2V-lfi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qo-JC-hDD">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qo-JC-hDD" customClass="MDCButton">
                                 <rect key="frame" x="262" y="378.5" width="180" height="49"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <state key="normal" title="Play as White"/>
@@ -305,9 +305,16 @@
                             <constraint firstItem="fvH-E0-lH8" firstAttribute="centerX" secondItem="8gD-zp-Tkx" secondAttribute="centerX" id="IDn-Y6-g1b"/>
                             <constraint firstItem="1qo-JC-hDD" firstAttribute="centerX" secondItem="8gD-zp-Tkx" secondAttribute="centerX" id="Le9-fE-teO"/>
                             <constraint firstItem="fvH-E0-lH8" firstAttribute="centerY" secondItem="8gD-zp-Tkx" secondAttribute="centerY" id="MQb-zW-sCx"/>
+                            <constraint firstItem="1qo-JC-hDD" firstAttribute="width" secondItem="dLF-53-pSc" secondAttribute="width" multiplier="1.01124" id="Vg6-EY-he6"/>
+                            <constraint firstItem="dLF-53-pSc" firstAttribute="width" secondItem="fvH-E0-lH8" secondAttribute="width" multiplier="1.02299" id="baN-Hs-KUI"/>
                             <constraint firstItem="dLF-53-pSc" firstAttribute="centerX" secondItem="8gD-zp-Tkx" secondAttribute="centerX" id="xM0-nL-qr5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playAsBlackButton" destination="fvH-E0-lH8" id="LyO-xS-RPp"/>
+                        <outlet property="playAsWhiteButton" destination="1qo-JC-hDD" id="nq0-3p-t04"/>
+                        <outlet property="playRandomButton" destination="dLF-53-pSc" id="AAa-X1-XpX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NwB-KF-R1J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -329,7 +336,7 @@
                                     <action selector="resignTapped:" destination="Gf4-2k-ddB" eventType="touchUpInside" id="b1f-0A-N1g"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RM-Do-O3N">
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RM-Do-O3N">
                                 <rect key="frame" x="443.5" y="108" width="117" height="42"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <state key="normal" title="Offer Draw"/>

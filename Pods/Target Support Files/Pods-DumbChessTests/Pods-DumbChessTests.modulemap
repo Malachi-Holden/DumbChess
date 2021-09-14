@@ -1,0 +1,6 @@
+framework module Pods_DumbChessTests {
+  umbrella header "Pods-DumbChessTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
