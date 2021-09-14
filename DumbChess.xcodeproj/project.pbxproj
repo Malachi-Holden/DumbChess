@@ -7,26 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1A506426B1B8F000D9118E /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A506326B1B8F000D9118E /* Pawn.swift */; };
+		0C1A506626B1B90300D9118E /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A506526B1B90300D9118E /* Knight.swift */; };
+		0C1A506826B1CF9600D9118E /* PathMovingPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A506726B1CF9600D9118E /* PathMovingPiece.swift */; };
+		0C1A507926B1D78A00D9118E /* RookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A507826B1D78A00D9118E /* RookTest.swift */; };
+		0C1A507B26B1DA4C00D9118E /* BishopTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A507A26B1DA4C00D9118E /* BishopTest.swift */; };
+		0C1A507D26B1DEA900D9118E /* PawnTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A507C26B1DEA900D9118E /* PawnTest.swift */; };
+		0C1A507F26B1F36700D9118E /* BoardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A507E26B1F36700D9118E /* BoardTest.swift */; };
+		0C1A508F26B487C800D9118E /* PieceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A508E26B487C800D9118E /* PieceTest.swift */; };
+		0C1A509126B512EC00D9118E /* KingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1A509026B512EC00D9118E /* KingTest.swift */; };
+		0C1E6D6226B10ABC00EB7395 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E6D6126B10ABC00EB7395 /* King.swift */; };
+		0C1E6D6426B10C5D00EB7395 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E6D6326B10C5D00EB7395 /* Bishop.swift */; };
+		0C1E6D6626B10C7200EB7395 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E6D6526B10C7200EB7395 /* Queen.swift */; };
+		0C266DEE26ED190100DD2D4B /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C266DED26ED190100DD2D4B /* SetupViewController.swift */; };
+		0C266DF026ED45CB00DD2D4B /* ChessPaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C266DEF26ED45CB00DD2D4B /* ChessPaneViewController.swift */; };
+		0C3148C326C4245900040A3E /* BoardEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3148C226C4245900040A3E /* BoardEvaluation.swift */; };
+		0C9E579126D86D2C000AF168 /* BoardEvaluationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E579026D86D2C000AF168 /* BoardEvaluationTest.swift */; };
+		0C9E929E26BA1F2800CC02B5 /* DumbEngineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9E929D26BA1F2800CC02B5 /* DumbEngineTest.swift */; };
+		0CD1CF7526E0446B00131C3C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1CF7426E0446B00131C3C /* Player.swift */; };
+		0CD1CF7726E045C400131C3C /* HumanPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1CF7626E045C400131C3C /* HumanPlayer.swift */; };
+		0CD1CF7926E0552A00131C3C /* DumbBotPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1CF7826E0552A00131C3C /* DumbBotPlayer.swift */; };
+		0CD1CF7B26E0576900131C3C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1CF7A26E0576900131C3C /* Game.swift */; };
+		0CD1CF7D26E068D100131C3C /* GameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1CF7C26E068D100131C3C /* GameTest.swift */; };
+		0CEC793726EDBA950068D846 /* GameControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC793626EDBA950068D846 /* GameControlViewController.swift */; };
+		0CF35C0B26DC3EF700FAD6B0 /* ManagedQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF35C0A26DC3EF700FAD6B0 /* ManagedQueue.swift */; };
+		0CF35C0D26DC435D00FAD6B0 /* ManagedQueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF35C0C26DC435D00FAD6B0 /* ManagedQueueTest.swift */; };
+		0CF4BA5726C1962A008309F8 /* QueenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4BA5626C1962A008309F8 /* QueenTest.swift */; };
+		0CF4BA5926C19789008309F8 /* KnightTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4BA5826C19789008309F8 /* KnightTest.swift */; };
+		0CF5397426EAFF4C00565283 /* DumbBotPlayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5397326EAFF4C00565283 /* DumbBotPlayerTest.swift */; };
+		0CF5397626EB92F700565283 /* HumanPlayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5397526EB92F700565283 /* HumanPlayerTest.swift */; };
+		0CF5397926EBBE7A00565283 /* ChessBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5397826EBBE7A00565283 /* ChessBoardView.swift */; };
+		0CF5397B26EBBEEB00565283 /* ChessBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5397A26EBBEEB00565283 /* ChessBoardView.xib */; };
 		0CFCE0A926AFBA550012F20B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0A826AFBA550012F20B /* AppDelegate.swift */; };
 		0CFCE0AB26AFBA550012F20B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0AA26AFBA550012F20B /* SceneDelegate.swift */; };
-		0CFCE0AD26AFBA550012F20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0AC26AFBA550012F20B /* ViewController.swift */; };
+		0CFCE0AD26AFBA550012F20B /* ChessBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0AC26AFBA550012F20B /* ChessBoardViewController.swift */; };
 		0CFCE0B026AFBA550012F20B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCE0AE26AFBA550012F20B /* Main.storyboard */; };
 		0CFCE0B226AFBA590012F20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCE0B126AFBA590012F20B /* Assets.xcassets */; };
 		0CFCE0B526AFBA590012F20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCE0B326AFBA590012F20B /* LaunchScreen.storyboard */; };
+		0CFCE0BE26AFBA970012F20B /* DumbEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0BD26AFBA970012F20B /* DumbEngine.swift */; };
+		0CFCE0C126AFBB990012F20B /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0C026AFBB990012F20B /* Piece.swift */; };
+		0CFCE0C326AFBD130012F20B /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0C226AFBD130012F20B /* Board.swift */; };
+		0CFCE0C526AFC10C0012F20B /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCE0C426AFC10C0012F20B /* Rook.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0C1A507326B1D75400D9118E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CFCE09D26AFBA550012F20B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CFCE0A426AFBA550012F20B;
+			remoteInfo = DumbChess;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0C1A506326B1B8F000D9118E /* Pawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
+		0C1A506526B1B90300D9118E /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		0C1A506726B1CF9600D9118E /* PathMovingPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathMovingPiece.swift; sourceTree = "<group>"; };
+		0C1A506E26B1D75400D9118E /* DumbChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1A507226B1D75400D9118E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1A507826B1D78A00D9118E /* RookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RookTest.swift; sourceTree = "<group>"; };
+		0C1A507A26B1DA4C00D9118E /* BishopTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BishopTest.swift; sourceTree = "<group>"; };
+		0C1A507C26B1DEA900D9118E /* PawnTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawnTest.swift; sourceTree = "<group>"; };
+		0C1A507E26B1F36700D9118E /* BoardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTest.swift; sourceTree = "<group>"; };
+		0C1A508E26B487C800D9118E /* PieceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceTest.swift; sourceTree = "<group>"; };
+		0C1A509026B512EC00D9118E /* KingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingTest.swift; sourceTree = "<group>"; };
+		0C1E6D6126B10ABC00EB7395 /* King.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		0C1E6D6326B10C5D00EB7395 /* Bishop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop.swift; sourceTree = "<group>"; };
+		0C1E6D6526B10C7200EB7395 /* Queen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
+		0C266DED26ED190100DD2D4B /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		0C266DEF26ED45CB00DD2D4B /* ChessPaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessPaneViewController.swift; sourceTree = "<group>"; };
+		0C3148C226C4245900040A3E /* BoardEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardEvaluation.swift; sourceTree = "<group>"; };
+		0C9E579026D86D2C000AF168 /* BoardEvaluationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardEvaluationTest.swift; sourceTree = "<group>"; };
+		0C9E929D26BA1F2800CC02B5 /* DumbEngineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbEngineTest.swift; sourceTree = "<group>"; };
+		0CD1CF7426E0446B00131C3C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0CD1CF7626E045C400131C3C /* HumanPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanPlayer.swift; sourceTree = "<group>"; };
+		0CD1CF7826E0552A00131C3C /* DumbBotPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbBotPlayer.swift; sourceTree = "<group>"; };
+		0CD1CF7A26E0576900131C3C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		0CD1CF7C26E068D100131C3C /* GameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTest.swift; sourceTree = "<group>"; };
+		0CEC793626EDBA950068D846 /* GameControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControlViewController.swift; sourceTree = "<group>"; };
+		0CF35C0A26DC3EF700FAD6B0 /* ManagedQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedQueue.swift; sourceTree = "<group>"; };
+		0CF35C0C26DC435D00FAD6B0 /* ManagedQueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedQueueTest.swift; sourceTree = "<group>"; };
+		0CF4BA5626C1962A008309F8 /* QueenTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueenTest.swift; sourceTree = "<group>"; };
+		0CF4BA5826C19789008309F8 /* KnightTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightTest.swift; sourceTree = "<group>"; };
+		0CF5397326EAFF4C00565283 /* DumbBotPlayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbBotPlayerTest.swift; sourceTree = "<group>"; };
+		0CF5397526EB92F700565283 /* HumanPlayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanPlayerTest.swift; sourceTree = "<group>"; };
+		0CF5397826EBBE7A00565283 /* ChessBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardView.swift; sourceTree = "<group>"; };
+		0CF5397A26EBBEEB00565283 /* ChessBoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChessBoardView.xib; sourceTree = "<group>"; };
 		0CFCE0A526AFBA550012F20B /* DumbChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFCE0A826AFBA550012F20B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CFCE0AA26AFBA550012F20B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CFCE0AC26AFBA550012F20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CFCE0AC26AFBA550012F20B /* ChessBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardViewController.swift; sourceTree = "<group>"; };
 		0CFCE0AF26AFBA550012F20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CFCE0B126AFBA590012F20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CFCE0B426AFBA590012F20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CFCE0B626AFBA590012F20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFCE0BD26AFBA970012F20B /* DumbEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbEngine.swift; sourceTree = "<group>"; };
+		0CFCE0C026AFBB990012F20B /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		0CFCE0C226AFBD130012F20B /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		0CFCE0C426AFC10C0012F20B /* Rook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C1A506B26B1D75400D9118E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CFCE0A226AFBA550012F20B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +126,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1A506926B1CF9C00D9118E /* PathMovingPieces */ = {
+			isa = PBXGroup;
+			children = (
+				0C1A506726B1CF9600D9118E /* PathMovingPiece.swift */,
+				0C1E6D6526B10C7200EB7395 /* Queen.swift */,
+				0C1E6D6326B10C5D00EB7395 /* Bishop.swift */,
+				0CFCE0C426AFC10C0012F20B /* Rook.swift */,
+			);
+			path = PathMovingPieces;
+			sourceTree = "<group>";
+		};
+		0C1A506F26B1D75400D9118E /* DumbChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CF5397526EB92F700565283 /* HumanPlayerTest.swift */,
+				0CF5397326EAFF4C00565283 /* DumbBotPlayerTest.swift */,
+				0CD1CF7C26E068D100131C3C /* GameTest.swift */,
+				0CF35C0C26DC435D00FAD6B0 /* ManagedQueueTest.swift */,
+				0C9E579026D86D2C000AF168 /* BoardEvaluationTest.swift */,
+				0CF4BA5826C19789008309F8 /* KnightTest.swift */,
+				0CF4BA5626C1962A008309F8 /* QueenTest.swift */,
+				0C9E929D26BA1F2800CC02B5 /* DumbEngineTest.swift */,
+				0C1A509026B512EC00D9118E /* KingTest.swift */,
+				0C1A508E26B487C800D9118E /* PieceTest.swift */,
+				0C1A507E26B1F36700D9118E /* BoardTest.swift */,
+				0C1A507C26B1DEA900D9118E /* PawnTest.swift */,
+				0C1A507A26B1DA4C00D9118E /* BishopTest.swift */,
+				0C1A507826B1D78A00D9118E /* RookTest.swift */,
+				0C1A507226B1D75400D9118E /* Info.plist */,
+			);
+			path = DumbChessTests;
+			sourceTree = "<group>";
+		};
+		0CD1CF7326E0445E00131C3C /* game */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1CF7426E0446B00131C3C /* Player.swift */,
+				0CD1CF7626E045C400131C3C /* HumanPlayer.swift */,
+				0CD1CF7826E0552A00131C3C /* DumbBotPlayer.swift */,
+				0CD1CF7A26E0576900131C3C /* Game.swift */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		0CF35C0926DC3EC300FAD6B0 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				0CF35C0A26DC3EF700FAD6B0 /* ManagedQueue.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		0CF5397726EBBE4A00565283 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0CFCE0AC26AFBA550012F20B /* ChessBoardViewController.swift */,
+				0CFCE0AE26AFBA550012F20B /* Main.storyboard */,
+				0CF5397826EBBE7A00565283 /* ChessBoardView.swift */,
+				0CF5397A26EBBEEB00565283 /* ChessBoardView.xib */,
+				0C266DED26ED190100DD2D4B /* SetupViewController.swift */,
+				0C266DEF26ED45CB00DD2D4B /* ChessPaneViewController.swift */,
+				0CEC793626EDBA950068D846 /* GameControlViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		0CFCE09C26AFBA550012F20B = {
 			isa = PBXGroup;
 			children = (
 				0CFCE0A726AFBA550012F20B /* DumbChess */,
+				0C1A506F26B1D75400D9118E /* DumbChessTests */,
 				0CFCE0A626AFBA550012F20B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				0CFCE0A526AFBA550012F20B /* DumbChess.app */,
+				0C1A506E26B1D75400D9118E /* DumbChessTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +213,12 @@
 		0CFCE0A726AFBA550012F20B /* DumbChess */ = {
 			isa = PBXGroup;
 			children = (
+				0CF5397726EBBE4A00565283 /* UI */,
+				0CD1CF7326E0445E00131C3C /* game */,
+				0CF35C0926DC3EC300FAD6B0 /* util */,
+				0CFCE0BC26AFBA660012F20B /* engine */,
 				0CFCE0A826AFBA550012F20B /* AppDelegate.swift */,
 				0CFCE0AA26AFBA550012F20B /* SceneDelegate.swift */,
-				0CFCE0AC26AFBA550012F20B /* ViewController.swift */,
-				0CFCE0AE26AFBA550012F20B /* Main.storyboard */,
 				0CFCE0B126AFBA590012F20B /* Assets.xcassets */,
 				0CFCE0B326AFBA590012F20B /* LaunchScreen.storyboard */,
 				0CFCE0B626AFBA590012F20B /* Info.plist */,
@@ -67,9 +226,50 @@
 			path = DumbChess;
 			sourceTree = "<group>";
 		};
+		0CFCE0BC26AFBA660012F20B /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				0CFCE0BF26AFBB8F0012F20B /* pieces */,
+				0CFCE0BD26AFBA970012F20B /* DumbEngine.swift */,
+				0CFCE0C226AFBD130012F20B /* Board.swift */,
+				0C3148C226C4245900040A3E /* BoardEvaluation.swift */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		0CFCE0BF26AFBB8F0012F20B /* pieces */ = {
+			isa = PBXGroup;
+			children = (
+				0C1A506926B1CF9C00D9118E /* PathMovingPieces */,
+				0CFCE0C026AFBB990012F20B /* Piece.swift */,
+				0C1E6D6126B10ABC00EB7395 /* King.swift */,
+				0C1A506326B1B8F000D9118E /* Pawn.swift */,
+				0C1A506526B1B90300D9118E /* Knight.swift */,
+			);
+			path = pieces;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C1A506D26B1D75400D9118E /* DumbChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1A507526B1D75400D9118E /* Build configuration list for PBXNativeTarget "DumbChessTests" */;
+			buildPhases = (
+				0C1A506A26B1D75400D9118E /* Sources */,
+				0C1A506B26B1D75400D9118E /* Frameworks */,
+				0C1A506C26B1D75400D9118E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1A507426B1D75400D9118E /* PBXTargetDependency */,
+			);
+			name = DumbChessTests;
+			productName = DumbChessTests;
+			productReference = 0C1A506E26B1D75400D9118E /* DumbChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0CFCE0A426AFBA550012F20B /* DumbChess */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CFCE0B926AFBA590012F20B /* Build configuration list for PBXNativeTarget "DumbChess" */;
@@ -96,6 +296,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					0C1A506D26B1D75400D9118E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0CFCE0A426AFBA550012F20B;
+					};
 					0CFCE0A426AFBA550012F20B = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -115,15 +319,24 @@
 			projectRoot = "";
 			targets = (
 				0CFCE0A426AFBA550012F20B /* DumbChess */,
+				0C1A506D26B1D75400D9118E /* DumbChessTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C1A506C26B1D75400D9118E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CFCE0A326AFBA550012F20B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF5397B26EBBEEB00565283 /* ChessBoardView.xib in Resources */,
 				0CFCE0B526AFBA590012F20B /* LaunchScreen.storyboard in Resources */,
 				0CFCE0B226AFBA590012F20B /* Assets.xcassets in Resources */,
 				0CFCE0B026AFBA550012F20B /* Main.storyboard in Resources */,
@@ -133,17 +346,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C1A506A26B1D75400D9118E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF4BA5726C1962A008309F8 /* QueenTest.swift in Sources */,
+				0C1A508F26B487C800D9118E /* PieceTest.swift in Sources */,
+				0C9E579126D86D2C000AF168 /* BoardEvaluationTest.swift in Sources */,
+				0C9E929E26BA1F2800CC02B5 /* DumbEngineTest.swift in Sources */,
+				0CF35C0D26DC435D00FAD6B0 /* ManagedQueueTest.swift in Sources */,
+				0C1A507B26B1DA4C00D9118E /* BishopTest.swift in Sources */,
+				0CF5397426EAFF4C00565283 /* DumbBotPlayerTest.swift in Sources */,
+				0C1A509126B512EC00D9118E /* KingTest.swift in Sources */,
+				0C1A507926B1D78A00D9118E /* RookTest.swift in Sources */,
+				0C1A507F26B1F36700D9118E /* BoardTest.swift in Sources */,
+				0C1A507D26B1DEA900D9118E /* PawnTest.swift in Sources */,
+				0CF4BA5926C19789008309F8 /* KnightTest.swift in Sources */,
+				0CF5397626EB92F700565283 /* HumanPlayerTest.swift in Sources */,
+				0CD1CF7D26E068D100131C3C /* GameTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CFCE0A126AFBA550012F20B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CFCE0AD26AFBA550012F20B /* ViewController.swift in Sources */,
+				0CFCE0AD26AFBA550012F20B /* ChessBoardViewController.swift in Sources */,
+				0C266DF026ED45CB00DD2D4B /* ChessPaneViewController.swift in Sources */,
+				0CF35C0B26DC3EF700FAD6B0 /* ManagedQueue.swift in Sources */,
+				0CFCE0C526AFC10C0012F20B /* Rook.swift in Sources */,
+				0CFCE0BE26AFBA970012F20B /* DumbEngine.swift in Sources */,
+				0CF5397926EBBE7A00565283 /* ChessBoardView.swift in Sources */,
+				0CD1CF7726E045C400131C3C /* HumanPlayer.swift in Sources */,
+				0CD1CF7526E0446B00131C3C /* Player.swift in Sources */,
+				0CFCE0C326AFBD130012F20B /* Board.swift in Sources */,
+				0C1A506626B1B90300D9118E /* Knight.swift in Sources */,
+				0CD1CF7926E0552A00131C3C /* DumbBotPlayer.swift in Sources */,
+				0CFCE0C126AFBB990012F20B /* Piece.swift in Sources */,
+				0C1E6D6426B10C5D00EB7395 /* Bishop.swift in Sources */,
+				0C1A506826B1CF9600D9118E /* PathMovingPiece.swift in Sources */,
+				0C266DEE26ED190100DD2D4B /* SetupViewController.swift in Sources */,
+				0C3148C326C4245900040A3E /* BoardEvaluation.swift in Sources */,
+				0C1E6D6626B10C7200EB7395 /* Queen.swift in Sources */,
+				0CD1CF7B26E0576900131C3C /* Game.swift in Sources */,
 				0CFCE0A926AFBA550012F20B /* AppDelegate.swift in Sources */,
+				0C1A506426B1B8F000D9118E /* Pawn.swift in Sources */,
+				0C1E6D6226B10ABC00EB7395 /* King.swift in Sources */,
+				0CEC793726EDBA950068D846 /* GameControlViewController.swift in Sources */,
 				0CFCE0AB26AFBA550012F20B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C1A507426B1D75400D9118E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CFCE0A426AFBA550012F20B /* DumbChess */;
+			targetProxy = 0C1A507326B1D75400D9118E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0CFCE0AE26AFBA550012F20B /* Main.storyboard */ = {
@@ -165,6 +427,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C1A507626B1D75400D9118E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26Z2VH6W76;
+				INFOPLIST_FILE = DumbChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DumbChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DumbChess.app/DumbChess";
+			};
+			name = Debug;
+		};
+		0C1A507726B1D75400D9118E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26Z2VH6W76;
+				INFOPLIST_FILE = DumbChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DumbChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DumbChess.app/DumbChess";
+			};
+			name = Release;
+		};
 		0CFCE0B726AFBA590012F20B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +624,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C1A507526B1D75400D9118E /* Build configuration list for PBXNativeTarget "DumbChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1A507626B1D75400D9118E /* Debug */,
+				0C1A507726B1D75400D9118E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0CFCE0A026AFBA550012F20B /* Build configuration list for PBXProject "DumbChess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
