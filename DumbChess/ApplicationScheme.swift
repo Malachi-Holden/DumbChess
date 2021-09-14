@@ -22,7 +22,7 @@ class ApplicationScheme: NSObject {
         scheme.colorScheme.onSecondaryColor =
           UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)
         scheme.colorScheme.surfaceColor =
-            .white
+            UIColor(red: 245.0/255.0, green: 245.0/255.0, blue: 245.0/255.0, alpha: 1.0)
         scheme.colorScheme.onSurfaceColor =
             UIColor(red: 20.0/255.0, green: 20.0/255.0, blue: 20.0/255.0, alpha: 1.0)
         scheme.colorScheme.backgroundColor =
@@ -31,7 +31,8 @@ class ApplicationScheme: NSObject {
             .black
         scheme.colorScheme.errorColor =
             .red
-        scheme.typographyScheme.button = UIFont.preferredFont(forTextStyle: .largeTitle)
+        scheme.typographyScheme.body1 = UIFont.preferredFont(forTextStyle: .body)
+        scheme.typographyScheme.button = UIFont.preferredFont(forTextStyle: .body)
         return scheme
     }()
     

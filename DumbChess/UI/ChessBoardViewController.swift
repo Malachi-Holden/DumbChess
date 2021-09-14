@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MaterialComponents
 
 protocol ChessBoardControllerDelegate {
     func displaySetup()
@@ -22,6 +23,7 @@ class ChessBoardViewController: UIViewController, HumanInteractor, GameDelegate,
     
     var humanHasChosen = false
     
+    @IBOutlet weak var container: MDCCard!
     
     //MARK: - UIViewController methods
     override func viewDidLoad() {
@@ -29,6 +31,10 @@ class ChessBoardViewController: UIViewController, HumanInteractor, GameDelegate,
         chessBoardView.delegate = self
         chessBoardView.loadBoard(currentBoard, for: .White)
         
+        let scheme = ApplicationScheme.shared.containerScheme
+        self.view.backgroundColor = scheme.colorScheme.surfaceColor
+        self.view.tintColor = scheme.colorScheme.onSurfaceColor
+        container.applyTheme(withScheme: scheme)
     }
     
     override func viewDidAppear(_ animated: Bool) {

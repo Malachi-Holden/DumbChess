@@ -19,11 +19,13 @@ class SetupViewController: UIViewController {
     @IBOutlet weak var playAsBlackButton: MDCButton!
     @IBOutlet weak var playRandomButton: MDCButton!
     
+    @IBOutlet weak var container: MDCCard!
     override func viewDidLoad() {
         super.viewDidLoad()
         let scheme = ApplicationScheme.shared.containerScheme
-        self.view.backgroundColor = scheme.colorScheme.surfaceColor
-        self.view.tintColor = scheme.colorScheme.onSurfaceColor
+        container.applyTheme(withScheme: scheme)
+        self.view.backgroundColor = scheme.colorScheme.backgroundColor
+        self.view.tintColor = scheme.colorScheme.onBackgroundColor
         playAsWhiteButton.applyTextTheme(withScheme: scheme)
         playAsBlackButton.applyTextTheme(withScheme: scheme)
         playRandomButton.applyTextTheme(withScheme: scheme)

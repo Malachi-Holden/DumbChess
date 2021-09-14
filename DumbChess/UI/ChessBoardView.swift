@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import MaterialComponents
 
 protocol ChessBoardViewDelegate {
     func userWantsToMoveFrom(_ origin: Square, to destination: Square)
@@ -18,7 +18,7 @@ class PieceButton: UIButton{
 }
 
 @IBDesignable
-class ChessBoardView: UIView {
+class ChessBoardView: MDCCard {
     var delegate: ChessBoardViewDelegate?
     var view: UIView!
     var viewsForPieces = [:] as [Square: UIView]

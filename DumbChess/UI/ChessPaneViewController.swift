@@ -21,6 +21,9 @@ class ChessPaneViewController: UIViewController, ChessBoardControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let scheme = ApplicationScheme.shared.containerScheme
+        self.view.backgroundColor = scheme.colorScheme.backgroundColor
+        self.view.tintColor = scheme.colorScheme.onBackgroundColor
     }
     
     override func viewDidAppear(_ animated: Bool) {
